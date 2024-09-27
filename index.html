@@ -1,24 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Respossive Portfolio website Disign | codehal</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <section id="main">
-                 
-    </section>
-    
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- box icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"> Portfolio.</a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="dx dx-mon" id="darkMode-icon">
+        <i class="bx bx-moon"></i>
+      </div>
+    </header>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- home section dising  -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello , I am</h3>
+        <h1>sandeep patel</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          nihil et nesciunt quisquam modi adipisci libero placeat at molestiae
+          nostrum!
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+        <a href="#" class="btn"> Download CV</a>
+      </div>
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Devloper</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-palette"></i>
+            <h3>UI/UX desingner</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bx-code-alt"></i>
+            <h3>System desingner</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bx-code-alt"></i>
+            <h3>three.js Devloper</h3>
+          </div>
+
+          <div class="circle"></div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+      <div class="home-img">
+        <img src="./img/img1.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img
+          src="https://images.unsplash.com/photo-1623685463160-f3f501540a91?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29sbGVnZSUyMGJveXxlbnwwfHwwfHx8MA%3D%3D"
+          alt=""
+        />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>me</span></h2>
+        <h3>Hi, i'm here to help your next project!</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui doloribus
+          hic eaque rerum, fugit quisquam aut eligendi rem explicabo beatae
+          velit eos molestiae fuga voluptate sunt? Numquam, architecto excepturi
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui doloribus
+          hic eaque rerum, fugit quisquam aut eligendi rem explicabo beatae
+          velit eos molestiae fuga voluptate sunt? Numquam, architecto excepturi
+          beatae incidunt libero modi dolor, fugiat dolore nisi totam, soluta
+          nihil?
+        </p>
+        <a href="#" class="btn"> read more</a>
+      </div>
+    </section>
+
+    <!-- servises section desining  -->
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <box-icon name='paint-roll'></box-icon>
+          <h3> fullstak web Devlopment</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+            ipsam eos dolore harum necessitatibus alias?
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>frentend  Devlopment</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+            ipsam eos dolore harum necessitatibus alias?
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>backend devloper </h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+            ipsam eos dolore harum necessitatibus alias?
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
